@@ -12,7 +12,7 @@ scenarios <- data.frame(
   Fixed_Costs = c(25000, 20000, 18000),
   Operating_Costs = c(6000, 6000, 6000),
   Revenue_Growth = c(0.02, 0.05, 0.08),       # Annual growth
-  Initial_Investment = c(4000000, 3500000, 3000000) # Assumed initial investment
+  Initial_Investment = c(40000000, 35000000, 30000000) # Assumed initial investment
 )
 scenarios$Revenue_Y1 <- scenarios$Units_Sold * scenarios$Price_Per_Unit
 scenarios$Cost_Y1 <- scenarios$Fixed_Costs + (scenarios$Units_Sold * scenarios$Cost_Per_Unit) + (scenarios$Operating_Costs * scenarios$Units_Sold)
